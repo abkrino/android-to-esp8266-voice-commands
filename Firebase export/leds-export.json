@@ -1,0 +1,7 @@
+{
+  "leds" : {
+    "blue_led" : "ON",
+    "green_led" : "OFF",
+    "red_led" : "OFF"
+  }
+}

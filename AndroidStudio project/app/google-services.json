@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "111111111111",
+    "firebase_url": "https://your_firebase.firebaseio.com",
+    "project_id": "your_firebase",
+    "storage_bucket": "your_firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158785324254:android:cf9c7e94fc3cb7df",
+        "android_client_info": {
+          "package_name": "com.example.firebase_arduino_android_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111111111111-0qjjp71nsvbqerl0c1t81qm8mdf7hjl4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_arduino_android_app",
+            "certificate_hash": "b3e3333a7d1b7ebc69cd5eedf4e9bf745ae9ef4e"
+          }
+        },
+        {
+          "client_id": "158785324254-a5d8312q9v7isj2a35k95pda1u1bss46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyTES93FUKwmz0BWOEJQHxSotqreJoZkKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158785324254-a5d8312q9v7isj2a35k95pda1u1bss46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
