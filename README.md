@@ -1,8 +1,10 @@
 # android-to-esp8266-voice-commands
 
-Simple Android app to listen to voice commands on you device and send them to an ESP8266 board.
+Simple Android app to listen to voice commands on your device and send them to an ESP8266 board.
 
-Commands are sent via Firebase cloud-hosted NoSQL realtime database, which then are read by ESP8266 through your local wifi connection. 
+Commands are sent via Firebase cloud-hosted NoSQL realtime database, which then are read by ESP8266 through your local wifi connection.
+
+Kaminski - fckaminski66@gmail.com
 
 
 ## Firebase setup:
@@ -13,12 +15,12 @@ Commands are sent via Firebase cloud-hosted NoSQL realtime database, which then 
 ## ESP8266 setup:
 - Connect three LEDs to three output pins.
 - Using Arduino IDE, open VoiceCommandsToArduino.ino project.
-- Install ESP8266 WiFi and Firebase ESP8266 Client libraries to your Arduino IDE.
+- Install 'ESP8266 WiFi' and 'Firebase ESP8266 Client' libraries to your Arduino IDE.
 - Adjust the output pins numbers used, your local WiFi SSID/password and your Firebase settings. 
 - Upload the project to your board.
 
 ## Android setup:
-- Open <firebase_arduino_android_app> project in Android Studio.
+- Import Android app project in Android Studio.
 - Select menu Tools > Firebase. At the right panel, select "Real-Time Database". Log on with your Google account and select:
 	a) Connect your App to Firebase by selecting the realtme database you created and clicking "Connect to Firebase".
 	b) Add the Realtime Database to yout app.
